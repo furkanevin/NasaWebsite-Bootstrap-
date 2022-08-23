@@ -1,0 +1,114 @@
+.logo{
+    width: 5%;
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #FFFF;
+    overflow-x: hidden;
+    background-color: #121212;
+  }
+  
+  
+  
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  .carousel-item {
+    height: 32rem;
+  }
+    
+
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  .featurette-divider {
+    margin: 5rem 0; 
+  }
+  .featurette-heading {
+    letter-spacing: -.05rem;
+  }
+  
+  
+  @media (min-width: 40em) {
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
+
+/* Sign CSS */
+.mainContainer{
+  width: 100vw;
+  height: 90vh;
+  background:#121212;
+}
+.footercontainer{
+  background:  RGB(33, 37, 41);
+  height: 10vh;
+  color: white;
+  text-align: center;
+}
+.giris{
+  margin-top: 50%;
+  color: white;
+}
+form label{
+  color: white;
+}
+/* Sign CSS  End */
+
+/* James Styles */
+.contentContainer{
+  display: flex;
+}
+.text{
+  margin-left: 25px;
+}
+.text p{
+  column-rule: RGB(90, 90, 90);
+}
+
+@media  (min-width:100px) {
+  .contentContainer{
+    flex-direction: column;
+  }
+  .text{
+    margin-top: 55px;
+  }
+
+}
+@media  (min-width:768px) {
+  .contentContainer{
+    flex-direction: row;
+  }
+
+}
+
+/* JAMES styles END */

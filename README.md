@@ -2,4 +2,4 @@
 <h1>Preview</h1>
 <img src="https://github.com/furkanevin/NasaWebsite-Bootstrap-/blob/main/20220823_224621.gif"></img>
 
-<h1 style="color: yellow;"> Sarı olması gereken text </h1>
+<h1><span style="color:yellow;"> Sarı Text </span></h1>
